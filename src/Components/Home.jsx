@@ -11,7 +11,7 @@ const Home = () =>{
                     <div className="col-9 mx-auto">
                         <div className="row">
                         <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                            <h1>Sri Sairam Institute of Technology</h1>
+                            <h1>Sri Sai Ram Institute of Technology</h1>
                             <h2>(Autonomous)</h2>
                             <h3 className="my-3">Department Of Computer Science and Engineering</h3>
                             <div className="mt-3">
