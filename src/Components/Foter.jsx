@@ -16,7 +16,6 @@ const Foter = () =>{
                     <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
             <h6 className="text-uppercase mb-4 text-black" style={{fontSize:"1.24rem",fontVariant:"small-caps"}}>Address</h6>
             <p className="text-black">Sairam College Rd, Sai Leo Nagar,Tambaram West, Chennai, Tamil Nadu 600044</p>
-            <p className="text-black"> Email: principal@sairamit.edu.in</p>
             <p className="text-black">Phone: 044 4226 7777</p>
           </div>
   
