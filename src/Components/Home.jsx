@@ -16,7 +16,7 @@ const Home = () =>{
                             <h5>Autonomous|Approved by AICTE, New Delhi|{"\n"}Affilated to Anna University, Chennai|An ISO 9001:2015 Certified Institution|Accredited by NBA|NAAC Accredited 'A+' Grade</h5>
                             <h2 className="mx-auto">M-Apps Club</h2>
                             <div>
-                                <a href="https://airtable.com/shrwShbuHVhrFPQBb" className="btn-get-started mx-auto">Let's Start</a>
+                                <a href="https://airtable.com/shrklbRdH6SqANzh0" className="btn-get-started mx-auto">Let's Start</a>
                             </div>
                         </div>
 		            
