@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: 'Mulish', sans-serif;
 }
-.navbar-brand img{
+.navbar-brand> .imag{
   width: 4rem;
   height: 4rem;
 }
@@ -41,10 +41,9 @@
   margin: 0 0 10px 0;
   font-size: 3rem;
   font-weight: 700;
-  color: #34385E;
+  color: blue;
   max-width: 90%;
   max-height: 90%;
-  font-variant: small-caps;
 }
 #header h2{
   font-size: 2.5rem;
@@ -99,6 +98,9 @@
   100%   { transform: translate(0, -0px); }   
 }
 
+#about_us{
+  padding-top: 4.5rem;
+}
 .card{
   overflow: hidden;
   cursor: pointer;
@@ -125,6 +127,13 @@
   font-weight: 550;
   font-family: Merriweather;
 }
+#about_us .list-group-item-mine{
+  background-color: aqua;
+  color: black;
+  font-weight: 500;}
+  #about_us .p1{
+    font-weight: 700;
+  }
 /* .carousel-inner h5{
   font-size: 4rem;
   color: white;

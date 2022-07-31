@@ -1,5 +1,6 @@
 import React from "react";
 import app from "../../src/assests/app1.png";
+import sit from "../assests/logo/sit2.png"
 import ScrollToTop from "react-scroll-to-top";
 
 const Home = () =>{
@@ -11,7 +12,7 @@ const Home = () =>{
                     <div className="col-12 mx-auto">
                         <div className="row">
                         <div className="col-md-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                            <h1 className="mx-auto">Sri Sai Ram Institute of Technology</h1>
+                            <h1 className="mx-auto"><img src={sit} className="imag" style={{width:"4rem",height:"4rem"}}></img>SRI SAIRAM INSTITUTE OF TECHONOLOGY</h1>
                             <h5>Autonomous|Approved by AICTE, New Delhi|{"\n"}Affilated to Anna University, Chennai|An ISO 9001:2015 Certified Institution|Accredited by NBA|NAAC Accredited 'A+' Grade</h5>
                             <h2 className="mx-auto">M-Apps Club</h2>
                             <div>

@@ -61,7 +61,6 @@ const Sdata2 = [
       id: "05",
       name: "Mr. Anirudh P Menon",
       role: "Web-Developer",
-      contact:"+91 7358754009",
       dept:"Computer Science and Engineering",
       email:"sit20cs022@sairamtap.edu.in"
     }

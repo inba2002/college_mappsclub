@@ -13,23 +13,29 @@ const About = () =>{
         <div id="about_us">
             <div className="my-5">
                 <h1 className="text-center">About Us</h1>
-                <p className="my-3 p1">The Department of Computer Science and Engineering provides you with a large platform for your creativity by hosting a Website where you can introduce your mobile application, and high-caliber applications will be introduced on the Google Play store.</p>
+                <p className="my-3 p1">The Mobile Application Club provides you with a large platform for your creativity by hosting a Website where you can introduce your mobile application, and high-caliber applications will be introduced on the Google Play store.</p>
                 <h2 className="text-center">Vision</h2>
-                <p className="my-3 p2">Expose the student community to the development of mobile Applications for it is the wide way to impact the society wherein the future lies.</p>
+                <div className="col-6 mx-auto">
+                        <div className="row">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-mine list-group-item list-group-item-mine-mine">Expose the student community to the development of mobile Applications for it is the wide way to impact the society wherein the future lies.</li>
+                            </ul>
+                        </div>
+                        </div>
             </div>
             <div className="container-fluid mb-5">
                 <h2 className="text-center">Mission</h2>
                 <div className="row">
-                    <div className="col-10 mx-auto">
-                        <div className="row gy-4">
-                         {
-                           Sdata1 .map((val, ind)=>{
-                                return <Card1 key={ind}
-                                imUrl={val.imUrl}
-                                content={val.content}
-                                />
-                            })
-                         }
+                    <div className="col-6 mx-auto">
+                        <div className="row">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-mine">Initiate the students to develop Creative Mobile Applications.</li>
+                            <li class="list-group-item list-group-item-mine">Train the students to develop Application.</li>
+                            <li class="list-group-item list-group-item-mine">Conduct Workshops on Mobile Application Development.</li>
+                            <li class="list-group-item list-group-item-mine">Educating students about current trends in Hand Held device applications.</li>
+                            <li class="list-group-item list-group-item-mine">Conduct inter college App development competitions.</li>
+                            <li class="list-group-item list-group-item-mine">Host Mobile apps in the college website as well as Google Play Store.</li>
+                        </ul>
                         </div>
                     </div>
                 </div>
@@ -37,16 +43,12 @@ const About = () =>{
             <div className="container-fluid mb-5">
                 <h2 className="text-center">Long Term Goals (5 Years)</h2>
                 <div className="row">
-                    <div className="col-10 mx-auto">
-                        <div className="row gy-4">
-                         {
-                           Sdata3 .map((val, ind)=>{
-                                return <Card1 key={ind}
-                                imUrl={val.imUrl}
-                                content={val.content}
-                                />
-                            })
-                         }
+                    <div className="col-6 mx-auto">
+                        <div className="row">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-mine">Create a Mobile Application Development Software.</li>
+                            <li class="list-group-item list-group-item-mine">Extend the Mobile application development platform to multiple application development.</li>
+                        </ul>
                         </div>
                     </div>
                 </div>
@@ -54,60 +56,43 @@ const About = () =>{
             <div className="container-fluid mb-5">
                 <h2 className="text-center">Short Term Goals (2 Years)</h2>
                 <div className="row">
-                    <div className="col-10 mx-auto">
-                        <div className="row gy-4">
-                         {
-                           Sdata4 .map((val, ind)=>{
-                                return <Card1 key={ind}
-                                imUrl={val.imUrl}
-                                content={val.content}
-                                />
-                            })
-                         }
+                    <div className="col-6 mx-auto">
+                        <div className="row">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-mine">Initiate Start up for the benefit of students</li>
+                            <li class="list-group-item list-group-item-mine">Conduct International App Development Contests</li>
+                            <li class="list-group-item list-group-item-mine">Conduct International App Development Contests</li>
+                        </ul>
+                        </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <div className="container-fluid mb-5">
                 <h2 className="text-center">SDG Goals (Associated)</h2>
                 <div className="row">
-                    <div className="col-10 mx-auto">
-                        <div className="row gy-4">
-                         {
-                           Sdata5 .map((val, ind)=>{
-                                return <Card1 key={ind}
-                                imUrl={val.imUrl}
-                                content={val.content}
-                                />
-                            })
-                         }
+                <div className="col-6 mx-auto">
+                        <div className="row">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-mine">1.	Quality Education</li>
+                                <li class="list-group-item list-group-item-mine">2.	Descent work and Economic Growth</li>
+                                <li class="list-group-item list-group-item-mine">3.	Industry, Innovation and Infrastructure</li>
+                                <li class="list-group-item list-group-item-mine">4.	Sustainable Cities and Communities</li>
+                            </ul>
+                        </div>
                         </div>
                     </div>
                 </div>
-            </div>
             <div className="container-fluid mb-5">
                 <h2 className="text-center">No. Of. Members</h2>
                 <div className="row">
-                    <div className="col-10 mx-auto">
-                        <div className="row gy-4">
-                            <div className="col-md-3 col-10 mx-auto">
-                                <div class="card mb-3 h-100">
-                                    <h4>Faculty</h4>
-                                    <div class="card-body">
-                                        <h5 class="card-title" style={{fontSize:"1.15rem"}}>6</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-3 col-10 mx-auto">
-                                <div class="card mb-3 h-100">
-                                    <h4>Student</h4>
-                                    <div class="card-body">
-                                        <h5 class="card-title" style={{fontSize:"1.15rem"}}>425</h5>
-                                    </div>
-                                </div>
-                            </div>
+                <div className="col-6 mx-auto">
+                        <div className="row">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-mine">Faculty - 6</li>
+                                <li class="list-group-item list-group-item-mine">Students - 425</li>
+                            </ul>
                         </div>
-                    </div>
+                        </div>
                 </div>
             </div>
             <div className="container-fluid">
