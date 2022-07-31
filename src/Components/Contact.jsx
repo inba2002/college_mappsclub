@@ -16,6 +16,7 @@ const Contact = (props) =>{
                                 name={val.name}
                                 dept={val.dept}
                                 email={val.email}
+                                contact={val.contact}
                                 />
                             })
                          }

@@ -1,6 +1,4 @@
-import s1 from "../../src/assests/s1.jpg";
-import s2 from "../../src/assests/s2.jpg";
-import s3 from "../../src/assests/s3.jpg";
+
 
 
 
@@ -56,12 +54,14 @@ const Sdata2 = [
       name: "Mr. S.Inbasekar",
       role: "Student- Coordinator",
       dept:"Computer Science and Engineering",
+      contact:"+91 6383827152",
       email:"sit20cs033@sairamtap.edu.in"
     },
     {
       id: "05",
       name: "Mr. Anirudh P Menon",
       role: "Web-Developer",
+      contact:"+91 7358754009",
       dept:"Computer Science and Engineering",
       email:"sit20cs022@sairamtap.edu.in"
     }

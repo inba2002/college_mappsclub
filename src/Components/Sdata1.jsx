@@ -9,11 +9,11 @@ import im4 from "../../src/assests/i4.png";
 const Sdata1=[
     {
         imUrl:im1,
-        content:"Developing Creative Mobile Apps",
+        content:"Initiate and Train the students to develop Creative Mobile Application",
     },
     {
         imUrl:im2,
-        content:"Assistance will be provided for App development",
+        content:"Conduct workshops and educate students about the current trends in mobile application development",
     },
     {
         imUrl:im3,

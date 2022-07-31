@@ -1,4 +1,5 @@
 import React from "react";
+import sit1 from "../assests/logo/club.png"
 
 const Foter = () =>{
     return (
@@ -9,7 +10,7 @@ const Foter = () =>{
                 <section className="">
                   <div className="row">
                     <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                      <h6 className="text-uppercase mb-4 text-black" style={{fontSize:"1.5rem",fontVariant:"small-caps",fontWeight:"bolder"}}>M-Apps Club</h6>
+                      <h6 className="text-uppercase mb-4 text-black" style={{fontSize:"1.5rem",fontVariant:"small-caps",fontWeight:"bolder"}}><img src={sit1} className="imag1" style={{width:"6rem",heigth:"4rem"}}></img>M-Apps Club</h6>
                       <p className="text-black" style={{fontSize:"1.24rem",fontVariant:"small-caps",fontWeight:"bolder"}}>SRI SAI RAM INSTITUTE OF TECHNOLOGY</p>
                     </div>
                     <hr className="w-100 clearfix d-md-none"/>

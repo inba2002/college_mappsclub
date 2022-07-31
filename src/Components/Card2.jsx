@@ -9,6 +9,7 @@ const Card2 = (props) =>{
                     <div class="card-body">
                         <h5 class="card-title">{props.name}</h5>
                         <p class="card-text">{props.dept}</p>
+                        <p class="card-text">{props.contact}</p>
                         <a href={props.email}>{props.email}</a>
                     </div>
             </div>
