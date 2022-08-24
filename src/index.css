@@ -75,7 +75,7 @@
   margin-left: -4rem;
 }
 #header .btn-get-started:hover{
-  background: yellow;
+  background: red;
   color: black;
 }
 /* .header-img{
