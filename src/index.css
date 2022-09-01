@@ -206,6 +206,28 @@
   background: linear-gradient(to right,skyblue, lightgreen);
 }
 
+.card-container{
+  width: 500px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  margin: auto;
+  margin-bottom: 1in;
+  transition: 0.3s;
+  animation: ease-in;
+  border-radius: 0.2in;
+  cursor: pointer;
+  
+}
+.card-container:hover{
+  transform: scale(1.1);
+  box-shadow: -8px -8px 15px 0px rgb(199, 139, 255),
+              8px 8px 15px 0px rgb(118, 216, 255);
+}
+.card-title{
+  font-weight: bolder;
+  font-variant: small-caps;
+  text-decoration: none;
+}
 
 
 
